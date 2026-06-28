@@ -4,9 +4,6 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 
-/**
- * Product entity. Each microservice owns its own data model (database-per-service pattern).
- */
 @Entity
 @Table(name = "product")
 public class Product {
